@@ -79,6 +79,20 @@
       font-size: 20px;
       font-weight: 400;
     }
+
+    #form {
+      margin-top: 50px;
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: rgb(245, 244, 244);
+    }
+
+    input,
+    textarea {
+      width: 120vh;
+    }
   </style>
   <body>
     <div id="judul">
@@ -196,17 +210,13 @@
     <!-- form -->
     <div id="form">
       <form action="">
+        <h1 style="margin-bottom: 20px">Komentar</h1>
         <label for="">Nama</label><br />
         <input type="text" id="name" /><br />
         <label for="">Email</label><br />
         <input type="email" id="name" /><br />
-        <label for="">Telp</label><br />
-        <input type="number" id="name" /><br />
-        <label for="">Laki</label>
-        <label for="">cwk</label><br />
-        <input type="radio" />
-
-        <input type="radio" />
+        <label for="">Pesan</label><br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
       </form>
     </div>
   </body>
